@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>±í¸ñÖù×´Í¼</title>
+<title>è¡¨æ ¼æŸ±çŠ¶å›¾</title>
 <script type="text/javascript" src="http://cdn.hcharts.cn/jquery/jquery-1.8.3.min.js"></script>
   <script type="text/javascript" src="http://cdn.hcharts.cn/highcharts/highcharts.js"></script>
   <script type="text/javascript" src="http://cdn.hcharts.cn/highcharts/modules/exporting.js"></script>
@@ -16,17 +16,17 @@ $(function () {
             type: 'column'
         },
         title: {
-            text: '·ÖÄê¶È¶Ô±È·ÖÎö'
+            text: 'åˆ†å¹´åº¦å¯¹æ¯”åˆ†æ'
         },
         yAxis: {
             allowDecimals: false,
             title: {
-                text: '(ÍòÔª)'
+                text: '(ä¸‡å…ƒ)'
             }
         },
 		xAxis: {
 			title: {
-                text: '(ÏîÄ¿ÀàĞÍ)'
+                text: '(é¡¹ç›®ç±»å‹)'
             }
 		},
 		credits: {
@@ -59,9 +59,9 @@ $(function () {
                 cursor: 'pointer',
                 dataLabels: {
                     enabled: true,
-                    format: '<b>{point.name}</b>: {point.y} (ÍòÔª)',
+                    format: '<b>{point.name}</b>: {point.y} (ä¸‡å…ƒ)',
                     //formatter: function() {
-                    //    return '<b>'+ this.point.name +'</b>: '+ //this.point.y +'(ÍòÔª)';
+                    //    return '<b>'+ this.point.name +'</b>: '+ //this.point.y +'(ä¸‡å…ƒ)';
                     //},
                     style: {
                         color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
@@ -71,7 +71,7 @@ $(function () {
         },
         series: [{
             type: 'pie',
-            name: 'ËùÕ¼±ÈÖØ',
+            name: 'æ‰€å æ¯”é‡',
             data: [
                 ['Firefox',   1.11],
                 ['IE',       2.22],
@@ -90,7 +90,7 @@ $(function () {
 <table id="datatable">
     <thead>
         <tr>
-            <th>Ë®Î»</th>
+            <th>æ°´ä½</th>
             <th>2016</th>
             <th>2017</th>
 			<th>2018</th>
@@ -100,7 +100,7 @@ $(function () {
     </thead>
     <tbody>
         <tr>
-            <th>µÄ</th>
+            <th>çš„</th>
             <td>3</td>
 			<td>4</td>
             <td>4</td>
@@ -161,12 +161,10 @@ $(function () {
 <body>
 </html>
 
-[{"NAME":"'00Ğ£Ô°»·¾³ÕûÖÎ´ï±ê¹¤³Ì'","Y":146.74},
-{"NAME":"'01×¨ÒµºÍ¿Î³Ì½¨Éè'","Y":256.35},
-{"NAME":"'02ÊµÏ°ÊµÑµ»ùµØ½¨Éè'","Y":208.94},
-{"NAME":"'03Êı×ÖĞ£Ô°½¨Éè'","Y":54.3},
-{"NAME":"'04ÏÖ´úÑ§Í½ÖÆ'","Y":549.35},
-{"NAME":"'05¸ßË®Æ½ÊµÏ°ÊµÑµ»ùµØ'","Y":12.5},
-{"NAME":"'06ÆäËû'","Y":0}]
-
-
+[{"NAME":"'00æ ¡å›­ç¯å¢ƒæ•´æ²»è¾¾æ ‡å·¥ç¨‹'","Y":146.74},
+{"NAME":"'01ä¸“ä¸šå’Œè¯¾ç¨‹å»ºè®¾'","Y":256.35},
+{"NAME":"'02å®ä¹ å®è®­åŸºåœ°å»ºè®¾'","Y":208.94},
+{"NAME":"'03æ•°å­—æ ¡å›­å»ºè®¾'","Y":54.3},
+{"NAME":"'04ç°ä»£å­¦å¾’åˆ¶'","Y":549.35},
+{"NAME":"'05é«˜æ°´å¹³å®ä¹ å®è®­åŸºåœ°'","Y":12.5},
+{"NAME":"'06å…¶ä»–'","Y":0}]
